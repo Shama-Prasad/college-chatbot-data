@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Need any assistance?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply for admission?", "What is the admission process?", "How can I get admission?"],
+      "responses": ["You can apply for admission through our official college website under the 'Admissions' section.", "The admission process requires filling the online form and submitting required documents."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are offered?", "List of courses", "Available programs"],
+      "responses": ["We offer B.Tech, M.Tech, MBA, B.Sc, and Diploma courses.", "Courses include Engineering, Management, and Science programs."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "Tell me about fees", "How much is the tuition fee?"],
+      "responses": ["The fee structure depends on the course. Please check the 'Fee Structure' section on our website.", "Engineering fees start from ₹80,000 per year, MBA fees from ₹1,00,000 per year."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is hostel available?", "Hostel facilities", "Tell me about hostel"],
+      "responses": ["Yes, we provide separate hostel facilities for boys and girls.", "The hostels are equipped with Wi-Fi, mess, and 24/7 security."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["What about placements?", "Do you provide placement?", "How are the placements?"],
+      "responses": ["We have a strong placement cell with companies like Infosys, TCS, Wipro, and HCL visiting.", "Placement percentage is above 90% for most courses."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Is there a library?", "Library facilities", "Tell me about library"],
+      "responses": ["Yes, our library has over 50,000 books and digital resources.", "We also provide e-library access for all students."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later"],
+      "responses": ["Goodbye! Have a nice day.", "See you soon!", "Take care!"]
+    }
+  ]
+}
