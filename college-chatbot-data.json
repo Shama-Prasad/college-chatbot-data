@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "patterns": ["hi", "Hello", "Hey", "Good morning", "Good evening"],
       "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Need any assistance?"]
     },
     {
